@@ -1,0 +1,44 @@
+\begin{tikzpicture}
+\begin{axis}[
+    title={ $M_\infty$ = 0.63 $c_l$ = 0.329633 $c_d$ = 0.000006},
+    xlabel={$x/c$},
+    ylabel={$c_p[\unit{-}$]},
+    %xmin=-0.01, xmax=1.01,
+    y dir=reverse,
+    %xtick={0,0.2,0.4,0.6,0.8,1},
+    %xticklabels={0,0.2,0.4,0.6,0.8,1},
+    ymajorgrids=true,
+    xmajorgrids=true,
+    grid style=dashed,
+    legend style={at={(0.5,-0.2)},anchor=north},
+    width=12cm
+]
+
+\addplot[
+    only marks,
+    color=blue,
+    mark=+,
+    mark size=1,
+    ]
+    table {cp_results.dat};  
+    \addlegendentry{Kratos}
+
+\addplot[
+    color=black,
+    mark=none,
+    mark options={solid},
+    ]
+    table {references/lock/cp_lock_aoa_2.dat};  
+    \addlegendentry{Lock}
+
+\addplot[
+    color=black,
+    mark=none,
+    mark options={dashed},
+    dashed,
+    ]
+    table {references/lock/cp_critical_lock_mach_63.dat};  
+    \addlegendentry{$c_p^*$ = -1.1151}
+
+\end{axis}
+\end{tikzpicture}

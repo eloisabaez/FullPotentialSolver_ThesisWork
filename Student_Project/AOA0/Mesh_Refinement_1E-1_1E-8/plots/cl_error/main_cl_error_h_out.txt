@@ -1,0 +1,25 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./figures_cl_error_h.tex (./data/cl_error_DS_100_AOA_0.0/cl_error_h.tikz
+
+! Package pgfplots Error: Could not read table file 'cl_jump_error_results_h.da
+t' in 'search path=.,data/cl_error_DS_100_AOA_0.0'. In case you intended to pro
+vide inline data: maybe TeX screwed up your end-of-lines? Try `row sep=crcr' an
+d terminate your lines with `\\' (refer to the pgfplotstable manual for details
+).
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24     table {cl_jump_error_results_h.dat};
+                                             
+
+Package pgfplots Warning: the current plot has no coordinates (or all have been
+ filtered away) on input line 24.
+
+)
+Overfull \hbox (14.18863pt too wide) in paragraph at lines 28--7
+ [][] 
+)

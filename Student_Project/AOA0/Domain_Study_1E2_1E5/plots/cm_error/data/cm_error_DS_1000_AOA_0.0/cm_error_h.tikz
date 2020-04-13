@@ -1,0 +1,28 @@
+\begin{tikzpicture}
+\begin{semilogxaxis}[
+    title={Pitch moment coefficient relative error},
+    xlabel={h},
+    ylabel={$\frac{|c_m - c_{mref}|}{|c_{mref}|}\cdot100$},
+    ymajorgrids=true,
+    xmajorgrids=true,
+    grid style=dashed,
+    legend style={at={(0.5,-0.2)},anchor=north},
+    width=12cm
+]
+
+\addplot[
+    color=blue,
+    mark=square,
+    ]
+    table {cm_error_results_h.dat};  
+    \addlegendentry{Integral}
+
+\addplot[
+    color=red,
+    mark=square,
+    ]
+    table {cm_error_jump_results_h.dat};  
+    \addlegendentry{Jump}
+
+\end{semilogxaxis}
+\end{tikzpicture}

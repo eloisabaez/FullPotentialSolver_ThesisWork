@@ -1,0 +1,895 @@
+ |  /           |
+ ' /   __| _` | __|  _ \   __|
+ . \  |   (   | |   (   |\__ \
+_|\_\_|  \__,_|\__|\___/ ____/
+           Multi-Physics 7.1.0-bddc835-Release
+Compiled with OpenMP support.
+Maximum OpenMP threads: 8.
+Importing    KratosFluidDynamicsApplication 
+Initializing KratosFluidDynamicsApplication...
+Importing    KratosCompressiblePotentialFlowApplication 
+Initializing KratosCompressiblePotentialFlowApplication...
+Importing    KratosEigenSolversApplication 
+Initializing KratosEigenSolversApplication...
+Linear-Solver-Factory: Constructing a regular (non-complex) linear-solver 
+::[PotentialFlowSolver]:: : Variables ADDED 
+
+	Case  0 
+
+Linear-Solver-Factory: Constructing a regular (non-complex) linear-solver 
+::[PotentialFlowSolver]:: : Variables ADDED 
+::[PythonSolver]::: Reading model part. 
+::[PythonSolver]::: Reading model part from file: /home/eloisa/simulations/2020_28_02/AOA2/Mesh_Refinement_1E-1_1E-8/mdpas/naca0012_Case_0_DS_100_AOA_2.0_Far_Field_Mesh_Size_2_Airfoil_Mesh_Size_0.1.mdpa 
+ModelPartIO:   [Reading Nodes    : 4785 nodes read]
+ModelPartIO:   [Reading Elements : 9354 elements read] [Type: Element2D3N]
+ModelPartIO:   [Reading Conditions : 216 conditions read] [Type: LineCondition2D2N]
+ModelPartIO:   [Total Lines Read : 28993]
+::[PythonSolver]::: Finished reading model part from mdpa file. 
+ModelPart: -MainModelPart- model part
+    Buffer Size : 1
+    Number of tables : 0
+    Number of sub model parts : 3
+    Current solution step index : 0
+    DOMAIN_SIZE : 2
+    REFERENCE_CHORD : 1.00893
+
+    Number of Geometries  : 0
+    Mesh 0 :
+        Number of Nodes       : 4785
+        Number of Properties  : 1
+        Number of Elements    : 9354
+        Number of Conditions  : 216
+        Number of Constraints : 0
+
+    -Body2D_BodySurface- model part
+        Number of tables : 0
+        Number of sub model parts : 0
+
+        Number of Geometries  : 0
+        Mesh 0 :
+            Number of Nodes       : 16
+            Number of Properties  : 0
+            Number of Elements    : 0
+            Number of Conditions  : 16
+            Number of Constraints : 0
+    -Parts_Parts_Auto1- model part
+        Number of tables : 0
+        Number of sub model parts : 0
+
+        Number of Geometries  : 0
+        Mesh 0 :
+            Number of Nodes       : 4785
+            Number of Properties  : 0
+            Number of Elements    : 9354
+            Number of Conditions  : 0
+            Number of Constraints : 0
+    -PotentialWallCondition2D_Far_field_Auto1- model part
+        Number of tables : 0
+        Number of sub model parts : 0
+
+        Number of Geometries  : 0
+        Mesh 0 :
+            Number of Nodes       : 200
+            Number of Properties  : 0
+            Number of Elements    : 0
+            Number of Conditions  : 200
+            Number of Constraints : 0
+ 
+::[PythonSolver]:: : Finished reading model part. 
+[WARNING] PotentialFlowSolver: Material properties have not been imported. Check 'material_import_settings' in your ProjectParameters.json. 
+TetrahedralMeshOrientationCheck: No inverted elements found
+Mesh orientation check found 108 inverted conditions.
+FluidSolver: Model reading finished. 
+Analysis: Analysis -START-  
+Analysis: STEP:  0 
+Analysis: TIME:  0.0 
+Setup Dofs Time: 0.00480937
+Setup System Time: 2.4449e-05
+System Matrix Resize Time: 0.00352593
+System Construction Time: 0.00844823
+ResidualBasedBlockBuilderAndSolver: Build time: 0.00295888
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.0505959
+RESIDUAL CRITERION:  :: [ Obtained ratio = 0.120805; Expected ratio = 1e-12; Absolute norm = 0.091954; Expected norm =  1e-12]
+ResidualBasedBlockBuilderAndSolver: Build time: 0.0119068
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.0244723
+RESIDUAL CRITERION:  :: [ Obtained ratio = 0.0120051; Expected ratio = 1e-12; Absolute norm = 0.00913799; Expected norm =  1e-12]
+ResidualBasedBlockBuilderAndSolver: Build time: 0.0105919
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.0226121
+RESIDUAL CRITERION:  :: [ Obtained ratio = 0.000203007; Expected ratio = 1e-12; Absolute norm = 0.000154524; Expected norm =  1e-12]
+ResidualBasedBlockBuilderAndSolver: Build time: 0.0104023
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.0279673
+RESIDUAL CRITERION:  :: [ Obtained ratio = 2.31839e-07; Expected ratio = 1e-12; Absolute norm = 1.7647e-07; Expected norm =  1e-12]
+ResidualBasedBlockBuilderAndSolver: Build time: 0.00982305
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.0223554
+RESIDUAL CRITERION:  :: [ Obtained ratio = 9.93811e-12; Expected ratio = 1e-12; Absolute norm = 7.56464e-12; Expected norm =  1e-12]
+ResidualBasedBlockBuilderAndSolver: Build time: 0.00931741
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.0233615
+RESIDUAL CRITERION:  :: [ Obtained ratio = 7.75207e-14; Expected ratio = 1e-12; Absolute norm = 5.90068e-14; Expected norm =  1e-12]
+RESIDUAL CRITERION: Convergence is achieved
+NR-Strategy: Convergence achieved after 6 / 10 iterations
+[WARNING] CheckIfWakeConditionsAreFulfilled: THE WAKE CONDITION IS NOT FULFILLED IN 1 ELEMENTS WITH AN ABSOLUTE TOLERANCE OF 1e-09
+reference_area =  1.008930411365
+plot_reference_chord_projected =  1.0
+ComputeLiftProcess: COMPUTE LIFT 
+ComputeLiftProcess:  Cl =  0.2672900676185026 
+ComputeLiftProcess:  Cd =  0.004222873729928186 
+ComputeLiftProcess:  Cq =  0.0 
+ComputeLiftProcess:  Cmx =  0.0 
+ComputeLiftProcess:  Cmy =  0.0 
+ComputeLiftProcess:  Cmz =  0.0626323649938049 
+ComputeLiftProcess:  Cl =  0.26520644868072474 Far field 
+ComputeLiftProcess:  Cd =  1.273452624668646e-05 Far field 
+ComputeLiftProcess:  Cq =  0.0 Far field 
+ComputeLiftProcess:  Cl =  0.26520368872091654  = ( 2 * DPhi ) / ( U_inf * c ) 
+Analysis: Analysis -END-  
+
+	Case  1 
+
+Linear-Solver-Factory: Constructing a regular (non-complex) linear-solver 
+BuilderAndSolver: Clear Function called
+::[PotentialFlowSolver]:: : Variables ADDED 
+::[PythonSolver]::: Reading model part. 
+::[PythonSolver]::: Reading model part from file: /home/eloisa/simulations/2020_28_02/AOA2/Mesh_Refinement_1E-1_1E-8/mdpas/naca0012_Case_1_DS_100_AOA_2.0_Far_Field_Mesh_Size_2_Airfoil_Mesh_Size_0.01.mdpa 
+ModelPartIO:   [Reading Nodes    : 8168 nodes read]
+ModelPartIO:   [Reading Elements : 16060 elements read] [Type: Element2D3N]
+ModelPartIO:   [Reading Conditions : 276 conditions read] [Type: LineCondition2D2N]
+ModelPartIO:   [Total Lines Read : 49351]
+::[PythonSolver]::: Finished reading model part from mdpa file. 
+ModelPart: -MainModelPart- model part
+    Buffer Size : 1
+    Number of tables : 0
+    Number of sub model parts : 3
+    Current solution step index : 0
+    DOMAIN_SIZE : 2
+    REFERENCE_CHORD : 1.00893
+
+    Number of Geometries  : 0
+    Mesh 0 :
+        Number of Nodes       : 8168
+        Number of Properties  : 1
+        Number of Elements    : 16060
+        Number of Conditions  : 276
+        Number of Constraints : 0
+
+    -Body2D_BodySurface- model part
+        Number of tables : 0
+        Number of sub model parts : 0
+
+        Number of Geometries  : 0
+        Mesh 0 :
+            Number of Nodes       : 76
+            Number of Properties  : 0
+            Number of Elements    : 0
+            Number of Conditions  : 76
+            Number of Constraints : 0
+    -Parts_Parts_Auto1- model part
+        Number of tables : 0
+        Number of sub model parts : 0
+
+        Number of Geometries  : 0
+        Mesh 0 :
+            Number of Nodes       : 8168
+            Number of Properties  : 0
+            Number of Elements    : 16060
+            Number of Conditions  : 0
+            Number of Constraints : 0
+    -PotentialWallCondition2D_Far_field_Auto1- model part
+        Number of tables : 0
+        Number of sub model parts : 0
+
+        Number of Geometries  : 0
+        Mesh 0 :
+            Number of Nodes       : 200
+            Number of Properties  : 0
+            Number of Elements    : 0
+            Number of Conditions  : 200
+            Number of Constraints : 0
+ 
+::[PythonSolver]:: : Finished reading model part. 
+[WARNING] PotentialFlowSolver: Material properties have not been imported. Check 'material_import_settings' in your ProjectParameters.json. 
+TetrahedralMeshOrientationCheck: No inverted elements found
+Mesh orientation check found 138 inverted conditions.
+FluidSolver: Model reading finished. 
+Analysis: Analysis -START-  
+Analysis: STEP:  0 
+Analysis: TIME:  0.0 
+Setup Dofs Time: 0.00869416
+Setup System Time: 0.00347456
+System Matrix Resize Time: 0.0111207
+System Construction Time: 0.0234347
+ResidualBasedBlockBuilderAndSolver: Build time: 0.00529687
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.0397316
+RESIDUAL CRITERION:  :: [ Obtained ratio = 0.120804; Expected ratio = 1e-12; Absolute norm = 0.053748; Expected norm =  1e-12]
+ResidualBasedBlockBuilderAndSolver: Build time: 0.012498
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.0385084
+RESIDUAL CRITERION:  :: [ Obtained ratio = 0.0120024; Expected ratio = 1e-12; Absolute norm = 0.0053401; Expected norm =  1e-12]
+ResidualBasedBlockBuilderAndSolver: Build time: 0.0144804
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.0386706
+RESIDUAL CRITERION:  :: [ Obtained ratio = 0.000201152; Expected ratio = 1e-12; Absolute norm = 8.94966e-05; Expected norm =  1e-12]
+ResidualBasedBlockBuilderAndSolver: Build time: 0.0153732
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.0477761
+RESIDUAL CRITERION:  :: [ Obtained ratio = 1.06763e-07; Expected ratio = 1e-12; Absolute norm = 4.75007e-08; Expected norm =  1e-12]
+ResidualBasedBlockBuilderAndSolver: Build time: 0.014661
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.0405219
+RESIDUAL CRITERION:  :: [ Obtained ratio = 1.51419e-11; Expected ratio = 1e-12; Absolute norm = 6.73693e-12; Expected norm =  1e-12]
+ResidualBasedBlockBuilderAndSolver: Build time: 0.0143448
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.0476352
+RESIDUAL CRITERION:  :: [ Obtained ratio = 8.29753e-14; Expected ratio = 1e-12; Absolute norm = 3.69173e-14; Expected norm =  1e-12]
+RESIDUAL CRITERION: Convergence is achieved
+NR-Strategy: Convergence achieved after 6 / 10 iterations
+[WARNING] CheckIfWakeConditionsAreFulfilled: THE WAKE CONDITION IS NOT FULFILLED IN 27 ELEMENTS WITH AN ABSOLUTE TOLERANCE OF 1e-09
+reference_area =  1.008930411365
+plot_reference_chord_projected =  1.0
+ComputeLiftProcess: COMPUTE LIFT 
+ComputeLiftProcess:  Cl =  0.31809197954439056 
+ComputeLiftProcess:  Cd =  -0.00014220547637669358 
+ComputeLiftProcess:  Cq =  0.0 
+ComputeLiftProcess:  Cmx =  0.0 
+ComputeLiftProcess:  Cmy =  0.0 
+ComputeLiftProcess:  Cmz =  0.07958838618104408 
+ComputeLiftProcess:  Cl =  0.31819180452309465 Far field 
+ComputeLiftProcess:  Cd =  1.8329822088541596e-05 Far field 
+ComputeLiftProcess:  Cq =  0.0 Far field 
+ComputeLiftProcess:  Cl =  0.318188267230938  = ( 2 * DPhi ) / ( U_inf * c ) 
+Analysis: Analysis -END-  
+
+	Case  2 
+
+Linear-Solver-Factory: Constructing a regular (non-complex) linear-solver 
+BuilderAndSolver: Clear Function called
+::[PotentialFlowSolver]:: : Variables ADDED 
+::[PythonSolver]::: Reading model part. 
+::[PythonSolver]::: Reading model part from file: /home/eloisa/simulations/2020_28_02/AOA2/Mesh_Refinement_1E-1_1E-8/mdpas/naca0012_Case_2_DS_100_AOA_2.0_Far_Field_Mesh_Size_2_Airfoil_Mesh_Size_0.001.mdpa 
+ModelPartIO:   [Reading Nodes    : 11752 nodes read]
+ModelPartIO:   [Reading Elements : 23138 elements read] [Type: Element2D3N]
+ModelPartIO:   [Reading Conditions : 366 conditions read] [Type: LineCondition2D2N]
+ModelPartIO:   [Total Lines Read : 70945]
+::[PythonSolver]::: Finished reading model part from mdpa file. 
+ModelPart: -MainModelPart- model part
+    Buffer Size : 1
+    Number of tables : 0
+    Number of sub model parts : 3
+    Current solution step index : 0
+    DOMAIN_SIZE : 2
+    REFERENCE_CHORD : 1.00893
+
+    Number of Geometries  : 0
+    Mesh 0 :
+        Number of Nodes       : 11752
+        Number of Properties  : 1
+        Number of Elements    : 23138
+        Number of Conditions  : 366
+        Number of Constraints : 0
+
+    -Body2D_BodySurface- model part
+        Number of tables : 0
+        Number of sub model parts : 0
+
+        Number of Geometries  : 0
+        Mesh 0 :
+            Number of Nodes       : 166
+            Number of Properties  : 0
+            Number of Elements    : 0
+            Number of Conditions  : 166
+            Number of Constraints : 0
+    -Parts_Parts_Auto1- model part
+        Number of tables : 0
+        Number of sub model parts : 0
+
+        Number of Geometries  : 0
+        Mesh 0 :
+            Number of Nodes       : 11752
+            Number of Properties  : 0
+            Number of Elements    : 23138
+            Number of Conditions  : 0
+            Number of Constraints : 0
+    -PotentialWallCondition2D_Far_field_Auto1- model part
+        Number of tables : 0
+        Number of sub model parts : 0
+
+        Number of Geometries  : 0
+        Mesh 0 :
+            Number of Nodes       : 200
+            Number of Properties  : 0
+            Number of Elements    : 0
+            Number of Conditions  : 200
+            Number of Constraints : 0
+ 
+::[PythonSolver]:: : Finished reading model part. 
+[WARNING] PotentialFlowSolver: Material properties have not been imported. Check 'material_import_settings' in your ProjectParameters.json. 
+TetrahedralMeshOrientationCheck: No inverted elements found
+Mesh orientation check found 183 inverted conditions.
+FluidSolver: Model reading finished. 
+Analysis: Analysis -START-  
+Analysis: STEP:  0 
+Analysis: TIME:  0.0 
+Setup Dofs Time: 0.0114858
+Setup System Time: 0.00156898
+System Matrix Resize Time: 0.0108272
+System Construction Time: 0.0239945
+ResidualBasedBlockBuilderAndSolver: Build time: 0.00722024
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.0486238
+RESIDUAL CRITERION:  :: [ Obtained ratio = 0.120804; Expected ratio = 1e-12; Absolute norm = 0.037327; Expected norm =  1e-12]
+ResidualBasedBlockBuilderAndSolver: Build time: 0.012138
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.0500425
+RESIDUAL CRITERION:  :: [ Obtained ratio = 0.0120023; Expected ratio = 1e-12; Absolute norm = 0.00370856; Expected norm =  1e-12]
+ResidualBasedBlockBuilderAndSolver: Build time: 0.0196114
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.0550758
+RESIDUAL CRITERION:  :: [ Obtained ratio = 0.000201064; Expected ratio = 1e-12; Absolute norm = 6.21264e-05; Expected norm =  1e-12]
+ResidualBasedBlockBuilderAndSolver: Build time: 0.0185222
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.0573932
+RESIDUAL CRITERION:  :: [ Obtained ratio = 8.66756e-08; Expected ratio = 1e-12; Absolute norm = 2.67818e-08; Expected norm =  1e-12]
+ResidualBasedBlockBuilderAndSolver: Build time: 0.0175405
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.063991
+RESIDUAL CRITERION:  :: [ Obtained ratio = 1.2642e-11; Expected ratio = 1e-12; Absolute norm = 3.90622e-12; Expected norm =  1e-12]
+ResidualBasedBlockBuilderAndSolver: Build time: 0.0165067
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.0506933
+RESIDUAL CRITERION:  :: [ Obtained ratio = 1.02284e-13; Expected ratio = 1e-12; Absolute norm = 3.16047e-14; Expected norm =  1e-12]
+RESIDUAL CRITERION: Convergence is achieved
+NR-Strategy: Convergence achieved after 6 / 10 iterations
+[WARNING] CheckIfWakeConditionsAreFulfilled: THE WAKE CONDITION IS NOT FULFILLED IN 129 ELEMENTS WITH AN ABSOLUTE TOLERANCE OF 1e-09
+reference_area =  1.008930411365
+plot_reference_chord_projected =  1.0
+ComputeLiftProcess: COMPUTE LIFT 
+ComputeLiftProcess:  Cl =  0.32963345837722696 
+ComputeLiftProcess:  Cd =  5.680512726790743e-06 
+ComputeLiftProcess:  Cq =  0.0 
+ComputeLiftProcess:  Cmx =  0.0 
+ComputeLiftProcess:  Cmy =  0.0 
+ComputeLiftProcess:  Cmz =  0.08477208303836081 
+ComputeLiftProcess:  Cl =  0.32969904684933693 Far field 
+ComputeLiftProcess:  Cd =  1.968215227415082e-05 Far field 
+ComputeLiftProcess:  Cq =  0.0 Far field 
+ComputeLiftProcess:  Cl =  0.32969535347115486  = ( 2 * DPhi ) / ( U_inf * c ) 
+Analysis: Analysis -END-  
+
+	Case  3 
+
+Linear-Solver-Factory: Constructing a regular (non-complex) linear-solver 
+BuilderAndSolver: Clear Function called
+::[PotentialFlowSolver]:: : Variables ADDED 
+::[PythonSolver]::: Reading model part. 
+::[PythonSolver]::: Reading model part from file: /home/eloisa/simulations/2020_28_02/AOA2/Mesh_Refinement_1E-1_1E-8/mdpas/naca0012_Case_3_DS_100_AOA_2.0_Far_Field_Mesh_Size_2_Airfoil_Mesh_Size_0.0001.mdpa 
+ModelPartIO:   [Reading Nodes    : 15239 nodes read]
+ModelPartIO:   [Reading Elements : 30016 elements read] [Type: Element2D3N]
+ModelPartIO:   [Reading Conditions : 462 conditions read] [Type: LineCondition2D2N]
+ModelPartIO:   [Total Lines Read : 91963]
+::[PythonSolver]::: Finished reading model part from mdpa file. 
+ModelPart: -MainModelPart- model part
+    Buffer Size : 1
+    Number of tables : 0
+    Number of sub model parts : 3
+    Current solution step index : 0
+    DOMAIN_SIZE : 2
+    REFERENCE_CHORD : 1.00893
+
+    Number of Geometries  : 0
+    Mesh 0 :
+        Number of Nodes       : 15239
+        Number of Properties  : 1
+        Number of Elements    : 30016
+        Number of Conditions  : 462
+        Number of Constraints : 0
+
+    -Body2D_BodySurface- model part
+        Number of tables : 0
+        Number of sub model parts : 0
+
+        Number of Geometries  : 0
+        Mesh 0 :
+            Number of Nodes       : 262
+            Number of Properties  : 0
+            Number of Elements    : 0
+            Number of Conditions  : 262
+            Number of Constraints : 0
+    -Parts_Parts_Auto1- model part
+        Number of tables : 0
+        Number of sub model parts : 0
+
+        Number of Geometries  : 0
+        Mesh 0 :
+            Number of Nodes       : 15239
+            Number of Properties  : 0
+            Number of Elements    : 30016
+            Number of Conditions  : 0
+            Number of Constraints : 0
+    -PotentialWallCondition2D_Far_field_Auto1- model part
+        Number of tables : 0
+        Number of sub model parts : 0
+
+        Number of Geometries  : 0
+        Mesh 0 :
+            Number of Nodes       : 200
+            Number of Properties  : 0
+            Number of Elements    : 0
+            Number of Conditions  : 200
+            Number of Constraints : 0
+ 
+::[PythonSolver]:: : Finished reading model part. 
+[WARNING] PotentialFlowSolver: Material properties have not been imported. Check 'material_import_settings' in your ProjectParameters.json. 
+TetrahedralMeshOrientationCheck: No inverted elements found
+Mesh orientation check found 231 inverted conditions.
+FluidSolver: Model reading finished. 
+Analysis: Analysis -START-  
+Analysis: STEP:  0 
+Analysis: TIME:  0.0 
+Setup Dofs Time: 0.0173869
+Setup System Time: 0.000272819
+System Matrix Resize Time: 0.0201002
+System Construction Time: 0.0378705
+ResidualBasedBlockBuilderAndSolver: Build time: 0.00937756
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.0705052
+RESIDUAL CRITERION:  :: [ Obtained ratio = 0.120804; Expected ratio = 1e-12; Absolute norm = 0.0287797; Expected norm =  1e-12]
+ResidualBasedBlockBuilderAndSolver: Build time: 0.0208597
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.0752955
+RESIDUAL CRITERION:  :: [ Obtained ratio = 0.0120022; Expected ratio = 1e-12; Absolute norm = 0.00285936; Expected norm =  1e-12]
+ResidualBasedBlockBuilderAndSolver: Build time: 0.019669
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.0755366
+RESIDUAL CRITERION:  :: [ Obtained ratio = 0.00020106; Expected ratio = 1e-12; Absolute norm = 4.78996e-05; Expected norm =  1e-12]
+ResidualBasedBlockBuilderAndSolver: Build time: 0.0198581
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.0703019
+RESIDUAL CRITERION:  :: [ Obtained ratio = 8.55632e-08; Expected ratio = 1e-12; Absolute norm = 2.03842e-08; Expected norm =  1e-12]
+ResidualBasedBlockBuilderAndSolver: Build time: 0.0187824
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.0854732
+RESIDUAL CRITERION:  :: [ Obtained ratio = 1.18909e-11; Expected ratio = 1e-12; Absolute norm = 2.83283e-12; Expected norm =  1e-12]
+ResidualBasedBlockBuilderAndSolver: Build time: 0.0183138
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.0709336
+RESIDUAL CRITERION:  :: [ Obtained ratio = 1.16212e-13; Expected ratio = 1e-12; Absolute norm = 2.76858e-14; Expected norm =  1e-12]
+RESIDUAL CRITERION: Convergence is achieved
+NR-Strategy: Convergence achieved after 6 / 10 iterations
+[WARNING] CheckIfWakeConditionsAreFulfilled: THE WAKE CONDITION IS NOT FULFILLED IN 183 ELEMENTS WITH AN ABSOLUTE TOLERANCE OF 1e-09
+reference_area =  1.008930411365
+plot_reference_chord_projected =  1.0
+ComputeLiftProcess: COMPUTE LIFT 
+ComputeLiftProcess:  Cl =  0.33128151925384386 
+ComputeLiftProcess:  Cd =  9.927649774677489e-06 
+ComputeLiftProcess:  Cq =  0.0 
+ComputeLiftProcess:  Cmx =  0.0 
+ComputeLiftProcess:  Cmy =  0.0 
+ComputeLiftProcess:  Cmz =  0.08550529429181444 
+ComputeLiftProcess:  Cl =  0.3313403195104258 Far field 
+ComputeLiftProcess:  Cd =  1.9876697419369655e-05 Far field 
+ComputeLiftProcess:  Cq =  0.0 Far field 
+ComputeLiftProcess:  Cl =  0.3313366038038218  = ( 2 * DPhi ) / ( U_inf * c ) 
+Analysis: Analysis -END-  
+
+	Case  4 
+
+Linear-Solver-Factory: Constructing a regular (non-complex) linear-solver 
+BuilderAndSolver: Clear Function called
+::[PotentialFlowSolver]:: : Variables ADDED 
+::[PythonSolver]::: Reading model part. 
+::[PythonSolver]::: Reading model part from file: /home/eloisa/simulations/2020_28_02/AOA2/Mesh_Refinement_1E-1_1E-8/mdpas/naca0012_Case_4_DS_100_AOA_2.0_Far_Field_Mesh_Size_2_Airfoil_Mesh_Size_1e-05.mdpa 
+ModelPartIO:   [Reading Nodes    : 18566 nodes read]
+ModelPartIO:   [Reading Elements : 36572 elements read] [Type: Element2D3N]
+ModelPartIO:   [Reading Conditions : 560 conditions read] [Type: LineCondition2D2N]
+ModelPartIO:   [Total Lines Read : 112023]
+::[PythonSolver]::: Finished reading model part from mdpa file. 
+ModelPart: -MainModelPart- model part
+    Buffer Size : 1
+    Number of tables : 0
+    Number of sub model parts : 3
+    Current solution step index : 0
+    DOMAIN_SIZE : 2
+    REFERENCE_CHORD : 1.00893
+
+    Number of Geometries  : 0
+    Mesh 0 :
+        Number of Nodes       : 18566
+        Number of Properties  : 1
+        Number of Elements    : 36572
+        Number of Conditions  : 560
+        Number of Constraints : 0
+
+    -Body2D_BodySurface- model part
+        Number of tables : 0
+        Number of sub model parts : 0
+
+        Number of Geometries  : 0
+        Mesh 0 :
+            Number of Nodes       : 360
+            Number of Properties  : 0
+            Number of Elements    : 0
+            Number of Conditions  : 360
+            Number of Constraints : 0
+    -Parts_Parts_Auto1- model part
+        Number of tables : 0
+        Number of sub model parts : 0
+
+        Number of Geometries  : 0
+        Mesh 0 :
+            Number of Nodes       : 18566
+            Number of Properties  : 0
+            Number of Elements    : 36572
+            Number of Conditions  : 0
+            Number of Constraints : 0
+    -PotentialWallCondition2D_Far_field_Auto1- model part
+        Number of tables : 0
+        Number of sub model parts : 0
+
+        Number of Geometries  : 0
+        Mesh 0 :
+            Number of Nodes       : 200
+            Number of Properties  : 0
+            Number of Elements    : 0
+            Number of Conditions  : 200
+            Number of Constraints : 0
+ 
+::[PythonSolver]:: : Finished reading model part. 
+[WARNING] PotentialFlowSolver: Material properties have not been imported. Check 'material_import_settings' in your ProjectParameters.json. 
+TetrahedralMeshOrientationCheck: No inverted elements found
+Mesh orientation check found 280 inverted conditions.
+FluidSolver: Model reading finished. 
+Analysis: Analysis -START-  
+Analysis: STEP:  0 
+Analysis: TIME:  0.0 
+Setup Dofs Time: 0.0225716
+Setup System Time: 0.000267469
+System Matrix Resize Time: 0.0212441
+System Construction Time: 0.0441916
+ResidualBasedBlockBuilderAndSolver: Build time: 0.012079
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.0881827
+RESIDUAL CRITERION:  :: [ Obtained ratio = 0.120804; Expected ratio = 1e-12; Absolute norm = 0.0235845; Expected norm =  1e-12]
+ResidualBasedBlockBuilderAndSolver: Build time: 0.022625
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.0894389
+RESIDUAL CRITERION:  :: [ Obtained ratio = 0.0120023; Expected ratio = 1e-12; Absolute norm = 0.0023432; Expected norm =  1e-12]
+ResidualBasedBlockBuilderAndSolver: Build time: 0.0238499
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.0940291
+RESIDUAL CRITERION:  :: [ Obtained ratio = 0.000201062; Expected ratio = 1e-12; Absolute norm = 3.92533e-05; Expected norm =  1e-12]
+ResidualBasedBlockBuilderAndSolver: Build time: 0.0214512
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.0821143
+RESIDUAL CRITERION:  :: [ Obtained ratio = 8.67449e-08; Expected ratio = 1e-12; Absolute norm = 1.69352e-08; Expected norm =  1e-12]
+ResidualBasedBlockBuilderAndSolver: Build time: 0.0239818
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.0844273
+RESIDUAL CRITERION:  :: [ Obtained ratio = 1.40085e-11; Expected ratio = 1e-12; Absolute norm = 2.73488e-12; Expected norm =  1e-12]
+ResidualBasedBlockBuilderAndSolver: Build time: 0.0238164
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.0894502
+RESIDUAL CRITERION:  :: [ Obtained ratio = 1.30101e-13; Expected ratio = 1e-12; Absolute norm = 2.53995e-14; Expected norm =  1e-12]
+RESIDUAL CRITERION: Convergence is achieved
+NR-Strategy: Convergence achieved after 6 / 10 iterations
+[WARNING] CheckIfWakeConditionsAreFulfilled: THE WAKE CONDITION IS NOT FULFILLED IN 280 ELEMENTS WITH AN ABSOLUTE TOLERANCE OF 1e-09
+reference_area =  1.008930411365
+plot_reference_chord_projected =  1.0
+ComputeLiftProcess: COMPUTE LIFT 
+ComputeLiftProcess:  Cl =  0.3322709591753705 
+ComputeLiftProcess:  Cd =  6.401302943703306e-06 
+ComputeLiftProcess:  Cq =  0.0 
+ComputeLiftProcess:  Cmx =  0.0 
+ComputeLiftProcess:  Cmy =  0.0 
+ComputeLiftProcess:  Cmz =  0.08596884418727592 
+ComputeLiftProcess:  Cl =  0.3323260134554605 Far field 
+ComputeLiftProcess:  Cd =  1.9998313899251014e-05 Far field 
+ComputeLiftProcess:  Cq =  0.0 Far field 
+ComputeLiftProcess:  Cl =  0.33232228497726124  = ( 2 * DPhi ) / ( U_inf * c ) 
+Analysis: Analysis -END-  
+
+	Case  5 
+
+Linear-Solver-Factory: Constructing a regular (non-complex) linear-solver 
+BuilderAndSolver: Clear Function called
+::[PotentialFlowSolver]:: : Variables ADDED 
+::[PythonSolver]::: Reading model part. 
+::[PythonSolver]::: Reading model part from file: /home/eloisa/simulations/2020_28_02/AOA2/Mesh_Refinement_1E-1_1E-8/mdpas/naca0012_Case_5_DS_100_AOA_2.0_Far_Field_Mesh_Size_2_Airfoil_Mesh_Size_1e-06.mdpa 
+ModelPartIO:   [Reading Nodes    : 21876 nodes read]
+ModelPartIO:   [Reading Elements : 43096 elements read] [Type: Element2D3N]
+ModelPartIO:   [Reading Conditions : 656 conditions read] [Type: LineCondition2D2N]
+ModelPartIO:   [Total Lines Read : 131979]
+::[PythonSolver]::: Finished reading model part from mdpa file. 
+ModelPart: -MainModelPart- model part
+    Buffer Size : 1
+    Number of tables : 0
+    Number of sub model parts : 3
+    Current solution step index : 0
+    DOMAIN_SIZE : 2
+    REFERENCE_CHORD : 1.00893
+
+    Number of Geometries  : 0
+    Mesh 0 :
+        Number of Nodes       : 21876
+        Number of Properties  : 1
+        Number of Elements    : 43096
+        Number of Conditions  : 656
+        Number of Constraints : 0
+
+    -Body2D_BodySurface- model part
+        Number of tables : 0
+        Number of sub model parts : 0
+
+        Number of Geometries  : 0
+        Mesh 0 :
+            Number of Nodes       : 456
+            Number of Properties  : 0
+            Number of Elements    : 0
+            Number of Conditions  : 456
+            Number of Constraints : 0
+    -Parts_Parts_Auto1- model part
+        Number of tables : 0
+        Number of sub model parts : 0
+
+        Number of Geometries  : 0
+        Mesh 0 :
+            Number of Nodes       : 21876
+            Number of Properties  : 0
+            Number of Elements    : 43096
+            Number of Conditions  : 0
+            Number of Constraints : 0
+    -PotentialWallCondition2D_Far_field_Auto1- model part
+        Number of tables : 0
+        Number of sub model parts : 0
+
+        Number of Geometries  : 0
+        Mesh 0 :
+            Number of Nodes       : 200
+            Number of Properties  : 0
+            Number of Elements    : 0
+            Number of Conditions  : 200
+            Number of Constraints : 0
+ 
+::[PythonSolver]:: : Finished reading model part. 
+[WARNING] PotentialFlowSolver: Material properties have not been imported. Check 'material_import_settings' in your ProjectParameters.json. 
+TetrahedralMeshOrientationCheck: No inverted elements found
+Mesh orientation check found 328 inverted conditions.
+FluidSolver: Model reading finished. 
+Analysis: Analysis -START-  
+Analysis: STEP:  0 
+Analysis: TIME:  0.0 
+Setup Dofs Time: 0.0247107
+Setup System Time: 0.00181041
+System Matrix Resize Time: 0.024154
+System Construction Time: 0.0507836
+ResidualBasedBlockBuilderAndSolver: Build time: 0.0131201
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.0930621
+RESIDUAL CRITERION:  :: [ Obtained ratio = 0.120804; Expected ratio = 1e-12; Absolute norm = 0.0200346; Expected norm =  1e-12]
+ResidualBasedBlockBuilderAndSolver: Build time: 0.0264171
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.0928048
+RESIDUAL CRITERION:  :: [ Obtained ratio = 0.0120023; Expected ratio = 1e-12; Absolute norm = 0.0019905; Expected norm =  1e-12]
+ResidualBasedBlockBuilderAndSolver: Build time: 0.0263284
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.0936943
+RESIDUAL CRITERION:  :: [ Obtained ratio = 0.000201064; Expected ratio = 1e-12; Absolute norm = 3.33452e-05; Expected norm =  1e-12]
+ResidualBasedBlockBuilderAndSolver: Build time: 0.0240157
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.102802
+RESIDUAL CRITERION:  :: [ Obtained ratio = 8.63368e-08; Expected ratio = 1e-12; Absolute norm = 1.43184e-08; Expected norm =  1e-12]
+ResidualBasedBlockBuilderAndSolver: Build time: 0.0243781
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.0934301
+RESIDUAL CRITERION:  :: [ Obtained ratio = 1.24144e-11; Expected ratio = 1e-12; Absolute norm = 2.05886e-12; Expected norm =  1e-12]
+ResidualBasedBlockBuilderAndSolver: Build time: 0.0267731
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.0998893
+RESIDUAL CRITERION:  :: [ Obtained ratio = 1.42186e-13; Expected ratio = 1e-12; Absolute norm = 2.35808e-14; Expected norm =  1e-12]
+RESIDUAL CRITERION: Convergence is achieved
+NR-Strategy: Convergence achieved after 6 / 10 iterations
+[WARNING] CheckIfWakeConditionsAreFulfilled: THE WAKE CONDITION IS NOT FULFILLED IN 251 ELEMENTS WITH AN ABSOLUTE TOLERANCE OF 1e-09
+reference_area =  1.008930411365
+plot_reference_chord_projected =  1.0
+ComputeLiftProcess: COMPUTE LIFT 
+ComputeLiftProcess:  Cl =  0.3325185602345177 
+ComputeLiftProcess:  Cd =  9.144241135304123e-06 
+ComputeLiftProcess:  Cq =  0.0 
+ComputeLiftProcess:  Cmx =  0.0 
+ComputeLiftProcess:  Cmy =  0.0 
+ComputeLiftProcess:  Cmz =  0.08609182698074962 
+ComputeLiftProcess:  Cl =  0.332580117013643 Far field 
+ComputeLiftProcess:  Cd =  2.0027157675511072e-05 Far field 
+ComputeLiftProcess:  Cq =  0.0 Far field 
+ComputeLiftProcess:  Cl =  0.33257638481235835  = ( 2 * DPhi ) / ( U_inf * c ) 
+Analysis: Analysis -END-  
+
+	Case  6 
+
+Linear-Solver-Factory: Constructing a regular (non-complex) linear-solver 
+BuilderAndSolver: Clear Function called
+::[PotentialFlowSolver]:: : Variables ADDED 
+::[PythonSolver]::: Reading model part. 
+::[PythonSolver]::: Reading model part from file: /home/eloisa/simulations/2020_28_02/AOA2/Mesh_Refinement_1E-1_1E-8/mdpas/naca0012_Case_6_DS_100_AOA_2.0_Far_Field_Mesh_Size_2_Airfoil_Mesh_Size_1e-07.mdpa 
+ModelPartIO:   [Reading Nodes    : 24839 nodes read]
+ModelPartIO:   [Reading Elements : 48926 elements read] [Type: Element2D3N]
+ModelPartIO:   [Reading Conditions : 752 conditions read] [Type: LineCondition2D2N]
+ModelPartIO:   [Total Lines Read : 149853]
+::[PythonSolver]::: Finished reading model part from mdpa file. 
+ModelPart: -MainModelPart- model part
+    Buffer Size : 1
+    Number of tables : 0
+    Number of sub model parts : 3
+    Current solution step index : 0
+    DOMAIN_SIZE : 2
+    REFERENCE_CHORD : 1.00893
+
+    Number of Geometries  : 0
+    Mesh 0 :
+        Number of Nodes       : 24839
+        Number of Properties  : 1
+        Number of Elements    : 48926
+        Number of Conditions  : 752
+        Number of Constraints : 0
+
+    -Body2D_BodySurface- model part
+        Number of tables : 0
+        Number of sub model parts : 0
+
+        Number of Geometries  : 0
+        Mesh 0 :
+            Number of Nodes       : 552
+            Number of Properties  : 0
+            Number of Elements    : 0
+            Number of Conditions  : 552
+            Number of Constraints : 0
+    -Parts_Parts_Auto1- model part
+        Number of tables : 0
+        Number of sub model parts : 0
+
+        Number of Geometries  : 0
+        Mesh 0 :
+            Number of Nodes       : 24839
+            Number of Properties  : 0
+            Number of Elements    : 48926
+            Number of Conditions  : 0
+            Number of Constraints : 0
+    -PotentialWallCondition2D_Far_field_Auto1- model part
+        Number of tables : 0
+        Number of sub model parts : 0
+
+        Number of Geometries  : 0
+        Mesh 0 :
+            Number of Nodes       : 200
+            Number of Properties  : 0
+            Number of Elements    : 0
+            Number of Conditions  : 200
+            Number of Constraints : 0
+ 
+::[PythonSolver]:: : Finished reading model part. 
+[WARNING] PotentialFlowSolver: Material properties have not been imported. Check 'material_import_settings' in your ProjectParameters.json. 
+TetrahedralMeshOrientationCheck: No inverted elements found
+Mesh orientation check found 376 inverted conditions.
+FluidSolver: Model reading finished. 
+Analysis: Analysis -START-  
+Analysis: STEP:  0 
+Analysis: TIME:  0.0 
+Setup Dofs Time: 0.0290014
+Setup System Time: 0.00133949
+System Matrix Resize Time: 0.0250578
+System Construction Time: 0.0556216
+ResidualBasedBlockBuilderAndSolver: Build time: 0.0159398
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.109574
+RESIDUAL CRITERION:  :: [ Obtained ratio = 0.120804; Expected ratio = 1e-12; Absolute norm = 0.0176434; Expected norm =  1e-12]
+ResidualBasedBlockBuilderAndSolver: Build time: 0.03114
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.114956
+RESIDUAL CRITERION:  :: [ Obtained ratio = 0.0120022; Expected ratio = 1e-12; Absolute norm = 0.00175293; Expected norm =  1e-12]
+ResidualBasedBlockBuilderAndSolver: Build time: 0.0249869
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.10881
+RESIDUAL CRITERION:  :: [ Obtained ratio = 0.000201055; Expected ratio = 1e-12; Absolute norm = 2.93641e-05; Expected norm =  1e-12]
+ResidualBasedBlockBuilderAndSolver: Build time: 0.0288205
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.124711
+RESIDUAL CRITERION:  :: [ Obtained ratio = 8.55321e-08; Expected ratio = 1e-12; Absolute norm = 1.2492e-08; Expected norm =  1e-12]
+ResidualBasedBlockBuilderAndSolver: Build time: 0.0342894
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.1155
+RESIDUAL CRITERION:  :: [ Obtained ratio = 1.25906e-11; Expected ratio = 1e-12; Absolute norm = 1.83886e-12; Expected norm =  1e-12]
+ResidualBasedBlockBuilderAndSolver: Build time: 0.0372501
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.107584
+RESIDUAL CRITERION:  :: [ Obtained ratio = 1.54368e-13; Expected ratio = 1e-12; Absolute norm = 2.25455e-14; Expected norm =  1e-12]
+RESIDUAL CRITERION: Convergence is achieved
+NR-Strategy: Convergence achieved after 6 / 10 iterations
+[WARNING] CheckIfWakeConditionsAreFulfilled: THE WAKE CONDITION IS NOT FULFILLED IN 322 ELEMENTS WITH AN ABSOLUTE TOLERANCE OF 1e-09
+reference_area =  1.008930411365
+plot_reference_chord_projected =  1.0
+ComputeLiftProcess: COMPUTE LIFT 
+ComputeLiftProcess:  Cl =  0.33259652792714645 
+ComputeLiftProcess:  Cd =  1.5266622905985018e-05 
+ComputeLiftProcess:  Cq =  0.0 
+ComputeLiftProcess:  Cmx =  0.0 
+ComputeLiftProcess:  Cmy =  0.0 
+ComputeLiftProcess:  Cmz =  0.0861257336172489 
+ComputeLiftProcess:  Cl =  0.33264909691194067 Far field 
+ComputeLiftProcess:  Cd =  2.0036811721994175e-05 Far field 
+ComputeLiftProcess:  Cq =  0.0 Far field 
+ComputeLiftProcess:  Cl =  0.33264536540386397  = ( 2 * DPhi ) / ( U_inf * c ) 
+Analysis: Analysis -END-  
+
+	Case  7 
+
+Linear-Solver-Factory: Constructing a regular (non-complex) linear-solver 
+BuilderAndSolver: Clear Function called
+::[PotentialFlowSolver]:: : Variables ADDED 
+::[PythonSolver]::: Reading model part. 
+::[PythonSolver]::: Reading model part from file: /home/eloisa/simulations/2020_28_02/AOA2/Mesh_Refinement_1E-1_1E-8/mdpas/naca0012_Case_7_DS_100_AOA_2.0_Far_Field_Mesh_Size_2_Airfoil_Mesh_Size_1e-08.mdpa 
+ModelPartIO:   [Reading Nodes    : 26824 nodes read]
+ModelPartIO:   [Reading Elements : 52800 elements read] [Type: Element2D3N]
+ModelPartIO:   [Reading Conditions : 848 conditions read] [Type: LineCondition2D2N]
+ModelPartIO:   [Total Lines Read : 161859]
+::[PythonSolver]::: Finished reading model part from mdpa file. 
+ModelPart: -MainModelPart- model part
+    Buffer Size : 1
+    Number of tables : 0
+    Number of sub model parts : 3
+    Current solution step index : 0
+    DOMAIN_SIZE : 2
+    REFERENCE_CHORD : 1.00893
+
+    Number of Geometries  : 0
+    Mesh 0 :
+        Number of Nodes       : 26824
+        Number of Properties  : 1
+        Number of Elements    : 52800
+        Number of Conditions  : 848
+        Number of Constraints : 0
+
+    -Body2D_BodySurface- model part
+        Number of tables : 0
+        Number of sub model parts : 0
+
+        Number of Geometries  : 0
+        Mesh 0 :
+            Number of Nodes       : 648
+            Number of Properties  : 0
+            Number of Elements    : 0
+            Number of Conditions  : 648
+            Number of Constraints : 0
+    -Parts_Parts_Auto1- model part
+        Number of tables : 0
+        Number of sub model parts : 0
+
+        Number of Geometries  : 0
+        Mesh 0 :
+            Number of Nodes       : 26824
+            Number of Properties  : 0
+            Number of Elements    : 52800
+            Number of Conditions  : 0
+            Number of Constraints : 0
+    -PotentialWallCondition2D_Far_field_Auto1- model part
+        Number of tables : 0
+        Number of sub model parts : 0
+
+        Number of Geometries  : 0
+        Mesh 0 :
+            Number of Nodes       : 200
+            Number of Properties  : 0
+            Number of Elements    : 0
+            Number of Conditions  : 200
+            Number of Constraints : 0
+ 
+::[PythonSolver]:: : Finished reading model part. 
+[WARNING] PotentialFlowSolver: Material properties have not been imported. Check 'material_import_settings' in your ProjectParameters.json. 
+TetrahedralMeshOrientationCheck: No inverted elements found
+Mesh orientation check found 424 inverted conditions.
+FluidSolver: Model reading finished. 
+Analysis: Analysis -START-  
+Analysis: STEP:  0 
+Analysis: TIME:  0.0 
+Setup Dofs Time: 0.0357602
+Setup System Time: 0.000246785
+System Matrix Resize Time: 0.0288149
+System Construction Time: 0.0652112
+ResidualBasedBlockBuilderAndSolver: Build time: 0.0181936
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.121369
+RESIDUAL CRITERION:  :: [ Obtained ratio = 0.120804; Expected ratio = 1e-12; Absolute norm = 0.0163444; Expected norm =  1e-12]
+ResidualBasedBlockBuilderAndSolver: Build time: 0.0357682
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.118683
+RESIDUAL CRITERION:  :: [ Obtained ratio = 0.0120023; Expected ratio = 1e-12; Absolute norm = 0.00162387; Expected norm =  1e-12]
+ResidualBasedBlockBuilderAndSolver: Build time: 0.0335853
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.125579
+RESIDUAL CRITERION:  :: [ Obtained ratio = 0.000201065; Expected ratio = 1e-12; Absolute norm = 2.72034e-05; Expected norm =  1e-12]
+ResidualBasedBlockBuilderAndSolver: Build time: 0.0313255
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.116149
+RESIDUAL CRITERION:  :: [ Obtained ratio = 8.42541e-08; Expected ratio = 1e-12; Absolute norm = 1.13993e-08; Expected norm =  1e-12]
+ResidualBasedBlockBuilderAndSolver: Build time: 0.0334733
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.137179
+RESIDUAL CRITERION:  :: [ Obtained ratio = 1.18434e-11; Expected ratio = 1e-12; Absolute norm = 1.60238e-12; Expected norm =  1e-12]
+ResidualBasedBlockBuilderAndSolver: Build time: 0.0303296
+ResidualBasedBlockBuilderAndSolver: System solve time: 0.117233
+RESIDUAL CRITERION:  :: [ Obtained ratio = 1.63983e-13; Expected ratio = 1e-12; Absolute norm = 2.21864e-14; Expected norm =  1e-12]
+RESIDUAL CRITERION: Convergence is achieved
+NR-Strategy: Convergence achieved after 6 / 10 iterations
+[WARNING] CheckIfWakeConditionsAreFulfilled: THE WAKE CONDITION IS NOT FULFILLED IN 339 ELEMENTS WITH AN ABSOLUTE TOLERANCE OF 1e-09
+reference_area =  1.008930411365
+plot_reference_chord_projected =  1.0
+ComputeLiftProcess: COMPUTE LIFT 
+ComputeLiftProcess:  Cl =  0.3326320839858708 
+ComputeLiftProcess:  Cd =  6.8967520008866615e-06 
+ComputeLiftProcess:  Cq =  0.0 
+ComputeLiftProcess:  Cmx =  0.0 
+ComputeLiftProcess:  Cmy =  0.0 
+ComputeLiftProcess:  Cmz =  0.0861530261024995 
+ComputeLiftProcess:  Cl =  0.33269480147895236 Far field 
+ComputeLiftProcess:  Cd =  2.0041354400502997e-05 Far field 
+ComputeLiftProcess:  Cq =  0.0 Far field 
+ComputeLiftProcess:  Cl =  0.3326910670621451  = ( 2 * DPhi ) / ( U_inf * c ) 
+Analysis: Analysis -END-  
+BuilderAndSolver: Clear Function called

@@ -1,0 +1,24 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./figures_cl_domain.tex
+(/home/eloisa/simulations/2020_28_02/AOA2/Domain_Study_1E2_1E5/plots/cl_error_d
+omain_size/data/AOA_2.0/domain_cl_error.tikz
+
+! Package pgfplots Error: Could not read table file 'cl_jump_error_results.dat'
+ in 'search path=.,/home/eloisa/simulations/2020_28_02/AOA2/Domain_Study_1E2_1E
+5/plots/cl_error_domain_size/data/AOA_2.0'. In case you intended to provide inl
+ine data: maybe TeX screwed up your end-of-lines? Try `row sep=crcr' and termin
+ate your lines with `\\' (refer to the pgfplotstable manual for details).
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24     table {cl_jump_error_results.dat};
+                                           
+
+Package pgfplots Warning: the current plot has no coordinates (or all have been
+ filtered away) on input line 24.
+
+))

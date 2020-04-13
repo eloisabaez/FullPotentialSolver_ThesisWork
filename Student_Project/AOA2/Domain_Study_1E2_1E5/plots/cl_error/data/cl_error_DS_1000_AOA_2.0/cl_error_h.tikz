@@ -1,0 +1,28 @@
+\begin{tikzpicture}
+\begin{semilogxaxis}[
+    title={Lift coefficient relative error},
+    xlabel={h},
+    ylabel={$\frac{|c_l - c_{lref}|}{|c_{lref}|}\cdot100$},
+    ymajorgrids=true,
+    xmajorgrids=true,
+    grid style=dashed,
+    legend style={at={(0.5,-0.2)},anchor=north},
+    width=12cm
+]
+
+\addplot[
+    color=blue,
+    mark=square,
+    ]
+    table {cl_error_results_h.dat};  
+    \addlegendentry{Integral}
+
+\addplot[
+    color=red,
+    mark=square,
+    ]
+    table {cl_jump_error_results_h.dat};  
+    \addlegendentry{Jump}
+
+\end{semilogxaxis}
+\end{tikzpicture}

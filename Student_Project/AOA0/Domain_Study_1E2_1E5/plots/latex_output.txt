@@ -1,0 +1,176 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+
+(/home/eloisa/simulations/2020_28_02/AOA0/Domain_Study_1E2_1E5-8/plots/cp/figur
+es.tex
+(/home/eloisa/simulations/2020_28_02/AOA0/Domain_Study_1E2_1E5-8/plots/cp/data/
+DS_100/AOA_0.0/Case_0_DS_100_AOA_0.0_Far_Field_Mesh_Size_2_Airfoil_Mesh_Size_0.
+001/cp.tikz))
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+
+(/home/eloisa/simulations/2020_28_02/AOA0/Domain_Study_1E2_1E5-8/plots/cp/figur
+es.tex
+(/home/eloisa/simulations/2020_28_02/AOA0/Domain_Study_1E2_1E5-8/plots/cp/data/
+DS_100/AOA_0.0/Case_1_DS_100_AOA_0.0_Far_Field_Mesh_Size_2_Airfoil_Mesh_Size_0.
+0001/cp.tikz))
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+
+(/home/eloisa/simulations/2020_28_02/AOA0/Domain_Study_1E2_1E5-8/plots/cp/figur
+es.tex
+(/home/eloisa/simulations/2020_28_02/AOA0/Domain_Study_1E2_1E5-8/plots/cp/data/
+DS_100/AOA_0.0/Case_2_DS_100_AOA_0.0_Far_Field_Mesh_Size_2_Airfoil_Mesh_Size_1e
+-05/cp.tikz))
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+
+(/home/eloisa/simulations/2020_28_02/AOA0/Domain_Study_1E2_1E5-8/plots/cp/figur
+es.tex
+(/home/eloisa/simulations/2020_28_02/AOA0/Domain_Study_1E2_1E5-8/plots/cp/data/
+DS_100/AOA_0.0/Case_3_DS_100_AOA_0.0_Far_Field_Mesh_Size_2_Airfoil_Mesh_Size_1.
+0000000000000002e-06/cp.tikz))
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+
+(/home/eloisa/simulations/2020_28_02/AOA0/Domain_Study_1E2_1E5-8/plots/aoa/data
+/figures_aoa.tex
+(/home/eloisa/simulations/2020_28_02/AOA0/Domain_Study_1E2_1E5-8/plots/aoa/data
+/cl_aoa.tikz))
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+
+(/home/eloisa/simulations/2020_28_02/AOA0/Domain_Study_1E2_1E5-8/plots/cp/figur
+es.tex
+(/home/eloisa/simulations/2020_28_02/AOA0/Domain_Study_1E2_1E5-8/plots/cp/data/
+DS_1000/AOA_0.0/Case_4_DS_1000_AOA_0.0_Far_Field_Mesh_Size_20_Airfoil_Mesh_Size
+_0.001/cp.tikz))
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+
+(/home/eloisa/simulations/2020_28_02/AOA0/Domain_Study_1E2_1E5-8/plots/cp/figur
+es.tex
+(/home/eloisa/simulations/2020_28_02/AOA0/Domain_Study_1E2_1E5-8/plots/cp/data/
+DS_1000/AOA_0.0/Case_5_DS_1000_AOA_0.0_Far_Field_Mesh_Size_20_Airfoil_Mesh_Size
+_0.0001/cp.tikz))
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+
+(/home/eloisa/simulations/2020_28_02/AOA0/Domain_Study_1E2_1E5-8/plots/cp/figur
+es.tex
+(/home/eloisa/simulations/2020_28_02/AOA0/Domain_Study_1E2_1E5-8/plots/cp/data/
+DS_1000/AOA_0.0/Case_6_DS_1000_AOA_0.0_Far_Field_Mesh_Size_20_Airfoil_Mesh_Size
+_1e-05/cp.tikz))
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+
+(/home/eloisa/simulations/2020_28_02/AOA0/Domain_Study_1E2_1E5-8/plots/cp/figur
+es.tex
+(/home/eloisa/simulations/2020_28_02/AOA0/Domain_Study_1E2_1E5-8/plots/cp/data/
+DS_1000/AOA_0.0/Case_7_DS_1000_AOA_0.0_Far_Field_Mesh_Size_20_Airfoil_Mesh_Size
+_1.0000000000000002e-06/cp.tikz))
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+
+(/home/eloisa/simulations/2020_28_02/AOA0/Domain_Study_1E2_1E5-8/plots/aoa/data
+/figures_aoa.tex
+(/home/eloisa/simulations/2020_28_02/AOA0/Domain_Study_1E2_1E5-8/plots/aoa/data
+/cl_aoa.tikz))
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+
+(/home/eloisa/simulations/2020_28_02/AOA0/Domain_Study_1E2_1E5-8/plots/cp/figur
+es.tex
+(/home/eloisa/simulations/2020_28_02/AOA0/Domain_Study_1E2_1E5-8/plots/cp/data/
+DS_10000/AOA_0.0/Case_8_DS_10000_AOA_0.0_Far_Field_Mesh_Size_200_Airfoil_Mesh_S
+ize_0.001/cp.tikz))
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+
+(/home/eloisa/simulations/2020_28_02/AOA0/Domain_Study_1E2_1E5-8/plots/cp/figur
+es.tex
+(/home/eloisa/simulations/2020_28_02/AOA0/Domain_Study_1E2_1E5-8/plots/cp/data/
+DS_10000/AOA_0.0/Case_9_DS_10000_AOA_0.0_Far_Field_Mesh_Size_200_Airfoil_Mesh_S
+ize_0.0001/cp.tikz))
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+
+(/home/eloisa/simulations/2020_28_02/AOA0/Domain_Study_1E2_1E5-8/plots/cp/figur
+es.tex
+(/home/eloisa/simulations/2020_28_02/AOA0/Domain_Study_1E2_1E5-8/plots/cp/data/
+DS_10000/AOA_0.0/Case_10_DS_10000_AOA_0.0_Far_Field_Mesh_Size_200_Airfoil_Mesh_
+Size_1e-05/cp.tikz))
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+
+(/home/eloisa/simulations/2020_28_02/AOA0/Domain_Study_1E2_1E5-8/plots/cp/figur
+es.tex
+(/home/eloisa/simulations/2020_28_02/AOA0/Domain_Study_1E2_1E5-8/plots/cp/data/
+DS_10000/AOA_0.0/Case_11_DS_10000_AOA_0.0_Far_Field_Mesh_Size_200_Airfoil_Mesh_
+Size_1.0000000000000002e-06/cp.tikz))
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+
+(/home/eloisa/simulations/2020_28_02/AOA0/Domain_Study_1E2_1E5-8/plots/aoa/data
+/figures_aoa.tex
+(/home/eloisa/simulations/2020_28_02/AOA0/Domain_Study_1E2_1E5-8/plots/aoa/data
+/cl_aoa.tikz))
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+
+(/home/eloisa/simulations/2020_28_02/AOA0/Domain_Study_1E2_1E5-8/plots/cp/figur
+es.tex
+(/home/eloisa/simulations/2020_28_02/AOA0/Domain_Study_1E2_1E5-8/plots/cp/data/
+DS_100000/AOA_0.0/Case_12_DS_100000_AOA_0.0_Far_Field_Mesh_Size_2000_Airfoil_Me
+sh_Size_0.001/cp.tikz))
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+
+(/home/eloisa/simulations/2020_28_02/AOA0/Domain_Study_1E2_1E5-8/plots/cp/figur
+es.tex
+(/home/eloisa/simulations/2020_28_02/AOA0/Domain_Study_1E2_1E5-8/plots/cp/data/
+DS_100000/AOA_0.0/Case_13_DS_100000_AOA_0.0_Far_Field_Mesh_Size_2000_Airfoil_Me
+sh_Size_0.0001/cp.tikz))
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+
+(/home/eloisa/simulations/2020_28_02/AOA0/Domain_Study_1E2_1E5-8/plots/cp/figur
+es.tex
+(/home/eloisa/simulations/2020_28_02/AOA0/Domain_Study_1E2_1E5-8/plots/cp/data/
+DS_100000/AOA_0.0/Case_14_DS_100000_AOA_0.0_Far_Field_Mesh_Size_2000_Airfoil_Me
+sh_Size_1e-05/cp.tikz))
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+
+(/home/eloisa/simulations/2020_28_02/AOA0/Domain_Study_1E2_1E5-8/plots/cp/figur
+es.tex
+(/home/eloisa/simulations/2020_28_02/AOA0/Domain_Study_1E2_1E5-8/plots/cp/data/
+DS_100000/AOA_0.0/Case_15_DS_100000_AOA_0.0_Far_Field_Mesh_Size_2000_Airfoil_Me
+sh_Size_1.0000000000000002e-06/cp.tikz))
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+
+(/home/eloisa/simulations/2020_28_02/AOA0/Domain_Study_1E2_1E5-8/plots/aoa/data
+/figures_aoa.tex
+(/home/eloisa/simulations/2020_28_02/AOA0/Domain_Study_1E2_1E5-8/plots/aoa/data
+/cl_aoa.tikz))

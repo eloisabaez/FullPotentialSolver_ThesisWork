@@ -1,0 +1,32 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./figures_cl_domain.tex
+(/home/eloisa/simulations/2020_28_02/AOA0/Mesh_Refinement_1E-1_1E-8/plots/cl_er
+ror_domain_size/data/AOA_0.0/domain_cl_error.tikz
+
+! Package pgfplots Error: Could not read table file 'cl_jump_error_results.dat'
+ in 'search path=.,/home/eloisa/simulations/2020_28_02/AOA0/Mesh_Refinement_1E-
+1_1E-8/plots/cl_error_domain_size/data/AOA_0.0'. In case you intended to provid
+e inline data: maybe TeX screwed up your end-of-lines? Try `row sep=crcr' and t
+erminate your lines with `\\' (refer to the pgfplotstable manual for details).
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24     table {cl_jump_error_results.dat};
+                                           
+
+Package pgfplots Warning: the current plot has no coordinates (or all have been
+ filtered away) on input line 24.
+
+
+Package pgfplots Warning: Axis range for axis x is approximately empty; enlargi
+ng it (it is [4.60516000000000:4.60516000000000]) on input line 27.
+
+
+Package pgfplots Warning: Axis range for axis y is approximately empty; enlargi
+ng it (it is [0.000499:0.000499]) on input line 27.
+
+))

@@ -1,0 +1,39 @@
+\begin{tikzpicture}
+\begin{semilogxaxis}[
+    title={Mesh refinement study, \alpha = 0.0},
+    xlabel={h},
+    ylabel={$c_l[\unit{-}]$},
+    ymajorgrids=true,
+    xmajorgrids=true,
+    y tick label style={
+       	/pgf/number format/.cd,
+       	fixed,
+       	fixed zerofill,
+       	precision=4,
+       	/tikz/.cd 
+    },
+    grid style=dashed,
+    legend style={at={(0.5,-0.2)},anchor=north},
+    width=12cm
+]
+
+\addplot[
+    color=blue,
+    mark=square,
+    ]
+    coordinates {
+    (0.1,-0.001998)(0.01,0.001379)(0.001,0.000095)(0.0001,-0.000127)(0.00001, 0.000130)(0.000001, 0.000106)(0.0000001,-0.000030)(0.00000001,0.000005)
+    };
+    \addlegendentry{Kratos Integral}
+
+\addplot[
+    color=black,
+    mark=none,
+    ]
+    coordinates {
+    (0.1,0)(0.01,0)(0.001,0)(0.0001,0)(0.00001, 0)(0.000001, 0)(0.0000001,-0)(0.00000001,0)
+}; 
+    \addlegendentry{Lock}
+
+\end{semilogxaxis}
+\end{tikzpicture}

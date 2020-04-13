@@ -1,0 +1,76 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./figures_cm_error_h.tex (./data/cm_error_DS_100_AOA_0.0/cm_error_h.tikz
+
+! Package pgfplots Error: Could not read table file 'cm_error_jump_results_h.da
+t' in 'search path=.,data/cm_error_DS_100_AOA_0.0'. In case you intended to pro
+vide inline data: maybe TeX screwed up your end-of-lines? Try `row sep=crcr' an
+d terminate your lines with `\\' (refer to the pgfplotstable manual for details
+).
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24     table {cm_error_jump_results_h.dat};
+                                             
+
+Package pgfplots Warning: the current plot has no coordinates (or all have been
+ filtered away) on input line 24.
+
+) (./data/cm_error_DS_1000_AOA_0.0/cm_error_h.tikz
+
+! Package pgfplots Error: Could not read table file 'cm_error_jump_results_h.da
+t' in 'search path=.,data/cm_error_DS_1000_AOA_0.0'. In case you intended to pr
+ovide inline data: maybe TeX screwed up your end-of-lines? Try `row sep=crcr' a
+nd terminate your lines with `\\' (refer to the pgfplotstable manual for detail
+s).
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24     table {cm_error_jump_results_h.dat};
+                                             
+
+Package pgfplots Warning: the current plot has no coordinates (or all have been
+ filtered away) on input line 24.
+
+) (./data/cm_error_DS_10000_AOA_0.0/cm_error_h.tikz
+
+! Package pgfplots Error: Could not read table file 'cm_error_jump_results_h.da
+t' in 'search path=.,data/cm_error_DS_10000_AOA_0.0'. In case you intended to p
+rovide inline data: maybe TeX screwed up your end-of-lines? Try `row sep=crcr' 
+and terminate your lines with `\\' (refer to the pgfplotstable manual for detai
+ls).
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24     table {cm_error_jump_results_h.dat};
+                                             
+
+Package pgfplots Warning: the current plot has no coordinates (or all have been
+ filtered away) on input line 24.
+
+) (./data/cm_error_DS_100000_AOA_0.0/cm_error_h.tikz
+
+! Package pgfplots Error: Could not read table file 'cm_error_jump_results_h.da
+t' in 'search path=.,data/cm_error_DS_100000_AOA_0.0'. In case you intended to 
+provide inline data: maybe TeX screwed up your end-of-lines? Try `row sep=crcr'
+ and terminate your lines with `\\' (refer to the pgfplotstable manual for deta
+ils).
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24     table {cm_error_jump_results_h.dat};
+                                             
+
+Package pgfplots Warning: the current plot has no coordinates (or all have been
+ filtered away) on input line 24.
+
+))

@@ -1,0 +1,45 @@
+\begin{tikzpicture}
+\begin{axis}[
+    title={ $M_\infty$ = 0.72 $c_l$ = 0.000018 $c_d$ = -0.000004},
+    xlabel={$x/c$},
+    ylabel={$c_p[\unit{-}$]},
+    %xmin=-0.01, xmax=1.01,
+    y dir=reverse,
+    %xtick={0,0.2,0.4,0.6,0.8,1},
+    %xticklabels={0,0.2,0.4,0.6,0.8,1},
+    ymajorgrids=true,
+    xmajorgrids=true,
+    grid style=dashed,
+    legend style={at={(0.5,-0.2)},anchor=north},
+    width=12cm
+]
+
+\addplot[
+    only marks,
+    color=blue,
+    mark=+,
+    mark size=1,
+    ]
+%    table {cp_results.dat};
+    table {/Volumes/Untitled/Documents/COME/Courses/Semester04/Simulations/Student_Project/AOA0/Domain_Study_1E2_1E5/plots/cp/data/DS_100000/AOA_0.0/Case_15_DS_100000_AOA_0.0_Far_Field_Mesh_Size_2000_Airfoil_Mesh_Size_1.0000000000000002e-06/cp_results.dat}; 
+    \addlegendentry{Kratos}
+
+\addplot[
+    color=black,
+    mark=none,
+    mark options={solid},
+    ]
+    table {/Volumes/Untitled/Documents/COME/Courses/Semester04/Simulations/Student_Project/AOA0/Domain_Study_1E2_1E5/plots/cp/data/DS_100000/AOA_0.0/Case_15_DS_100000_AOA_0.0_Far_Field_Mesh_Size_2000_Airfoil_Mesh_Size_1.0000000000000002e-06/references/lock/cp_lock_aoa_0.dat};  
+    \addlegendentry{Lock}
+
+\addplot[
+    color=black,
+    mark=none,
+    mark options={dashed},
+    dashed,
+    ]
+    table {/Volumes/Untitled/Documents/COME/Courses/Semester04/Simulations/Student_Project/AOA0/Domain_Study_1E2_1E5/plots/cp/data/DS_100000/AOA_0.0/Case_15_DS_100000_AOA_0.0_Far_Field_Mesh_Size_2000_Airfoil_Mesh_Size_1.0000000000000002e-06/references/lock/cp_critical_lock_mach_72.dat};  
+    \addlegendentry{$c_p^*$ = -0.6996}
+
+\end{axis}
+\end{tikzpicture}

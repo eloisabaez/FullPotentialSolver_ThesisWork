@@ -1,0 +1,80 @@
+%% Creator: Inkscape inkscape 0.92.2, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'MeshStudy_AOA0_Mesh_Size_1e-4_airfoil_velocity.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{1325.25bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.58856819)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{./images/student_project/MeshStudy_AOA0_Mesh_Size_1e-4_airfoil_velocity.pdf}}%
+    \put(0.9485512,0.01323713){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{0.66003}}}%
+    \put(0.9485512,0.0247906){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{15.292}}}%
+    \put(0.9485512,0.03634127){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{29.924}}}%
+    \put(0.9485512,0.04789246){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{44.556}}}%
+    \put(0.9485512,0.05944368){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{59.188}}}%
+    \put(0.9485512,0.07099491){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{73.82}}}%
+    \put(0.9485512,0.08254554){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{88.452}}}%
+    \put(0.9485512,0.09409676){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{103.08}}}%
+    \put(0.9485512,0.10564799){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{117.72}}}%
+    \put(0.9485512,0.11719921){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{132.35}}}%
+    \put(0.9485512,0.12874985){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{146.98}}}%
+    \put(0.9485512,0.14030107){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{161.61}}}%
+    \put(0.9485512,0.15185229){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{176.24}}}%
+    \put(0.9485512,0.16340351){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{190.88}}}%
+    \put(0.9485512,0.17495415){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{205.51}}}%
+    \put(0.9485512,0.18650537){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{220.14}}}%
+    \put(0.9485512,0.1980566){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{234.77}}}%
+    \put(0.9485512,0.20960782){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{249.4}}}%
+    \put(0.9485512,0.22115845){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{264.04}}}%
+    \put(0.9485512,0.23270968){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{278.67}}}%
+    \put(0.9485512,0.2442609){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{293.3}}}%
+    \put(0.9485512,0.25581212){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{307.93}}}%
+    \put(0.9485512,0.26736276){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{322.56}}}%
+    \put(0.9356876,0.28067005){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{|VELOCITY| [m/s]}}}%
+    \put(0.40696491,0.0063384){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Contour Fill of VELOCITY//tri1 element gp, |VELOCITY|.}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{./images/student_project/MeshStudy_AOA0_Mesh_Size_1e-4_airfoil_velocity.pdf}}%
+  \end{picture}%
+\endgroup%

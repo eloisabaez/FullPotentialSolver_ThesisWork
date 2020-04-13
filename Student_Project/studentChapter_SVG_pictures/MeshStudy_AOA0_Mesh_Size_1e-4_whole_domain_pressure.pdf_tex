@@ -1,0 +1,80 @@
+%% Creator: Inkscape inkscape 0.92.2, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'MeshStudy_AOA0_Mesh_Size_1e-4_whole_domain_pressure.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{1325.25bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.58856819)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{./images/student_project/MeshStudy_AOA0_Mesh_Size_1e-4_whole_domain_pressure.pdf}}%
+    \put(0.91932651,0.01323713){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{-0.66613}}}%
+    \put(0.91932651,0.0247906){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{-0.5842}}}%
+    \put(0.91932651,0.03634127){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{-0.50226}}}%
+    \put(0.91932651,0.04789246){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{-0.42033}}}%
+    \put(0.91932651,0.05944368){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{-0.3384}}}%
+    \put(0.91932651,0.07099491){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{-0.25646}}}%
+    \put(0.91932651,0.08254554){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{-0.17453}}}%
+    \put(0.91932651,0.09409676){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{-0.092599}}}%
+    \put(0.91932651,0.10564799){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{-0.010666}}}%
+    \put(0.91932651,0.11719921){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{0.071267}}}%
+    \put(0.91932651,0.12874985){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{0.1532}}}%
+    \put(0.91932651,0.14030107){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{0.23513}}}%
+    \put(0.91932651,0.15185229){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{0.31707}}}%
+    \put(0.91932651,0.16340351){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{0.399}}}%
+    \put(0.91932651,0.17495415){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{0.48093}}}%
+    \put(0.91932651,0.18650537){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{0.56286}}}%
+    \put(0.91932651,0.1980566){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{0.6448}}}%
+    \put(0.91932651,0.20960782){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{0.72673}}}%
+    \put(0.91932651,0.22115845){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{0.80866}}}%
+    \put(0.91932651,0.23270968){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{0.8906}}}%
+    \put(0.91932651,0.2442609){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{0.97253}}}%
+    \put(0.91932651,0.25581212){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1.0545}}}%
+    \put(0.91932651,0.26736276){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1.1364}}}%
+    \put(0.89916239,0.28067005){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{PRESSURE COEFFICIENT [-]}}}%
+    \put(0.40187098,0.0063384){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Contour Fill of PRESSURE COEFFICIENT//tri1 element gp.}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{./images/student_project/MeshStudy_AOA0_Mesh_Size_1e-4_whole_domain_pressure.pdf}}%
+  \end{picture}%
+\endgroup%
