@@ -49,7 +49,7 @@
   \global\let\svgscale\undefined%
   \makeatother%
   \begin{picture}(1,0.58856819)%
-    \put(0,0){\includegraphics[width=\unitlength,page=1]{./images/student_project/MeshStudy_AOA0_Mesh_Size_1e-4_airfoil_pressure.pdf}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{MeshStudy_AOA0_Mesh_Size_1e-4_airfoil_pressure.pdf}}%
     \put(0.91932651,0.01323713){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{-0.66613}}}%
     \put(0.91932651,0.0247906){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{-0.5842}}}%
     \put(0.91932651,0.03634127){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{-0.50226}}}%
@@ -75,6 +75,6 @@
     \put(0.91932651,0.26736276){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1.1364}}}%
     \put(0.89916239,0.28067005){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{PRESSURE COEFFICIENT [-]}}}%
     \put(0.40187098,0.0063384){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Contour Fill of PRESSURE COEFFICIENT//tri1 element gp.}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{./images/student_project/MeshStudy_AOA0_Mesh_Size_1e-4_airfoil_pressure.pdf}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{MeshStudy_AOA0_Mesh_Size_1e-4_airfoil_pressure.pdf}}%
   \end{picture}%
 \endgroup%
