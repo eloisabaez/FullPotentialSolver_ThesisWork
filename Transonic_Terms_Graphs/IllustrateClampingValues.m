@@ -70,6 +70,18 @@ xlabel('$q_{local} [m/s]$','Interpreter','latex','FontSize',12)
 ylabel('$\rho_{local} [kg/m^3]$','Interpreter','latex','FontSize',16)
 title('Density')
 
+figure
+plot(local_V, local_clamped_density./free_stream_density,'Color','#0065bd','LineWidth',1.3)
+hold on
+plot(local_V, sq_clamped_speed_of_sound./free_stream_speed_of_sound^2,'Color','#e37222','LineWidth',1.3)
+plot(local_V, sq__clamped_local_mach_number./free_stream_mach_number^2,'Color','#a2ad00','LineWidth',1.3)
+set(gcf,'Color','w')
+grid on
+legend('\rho_{local}/\rho_{\infty} [-]','a_{local}^2/a_{\infty}^2 [-]','M_{local}^2/M_{\infty}^2 [-]',...
+    'Location','Northwest','FontSize',14)
+xlabel('$q_{local} [m/s]$','Interpreter','latex','FontSize',14)
+title('Comparison of Values','FontSize',14)
+
 %%
 
 local_V = (0:10:1500);
@@ -80,7 +92,9 @@ local_density = zeros(1,length(local_V));
 for i = 1:length(local_V)
     sq_speed_of_sound(i) = calculateLocalSpeedOfSound(free_stream_mach_number, ...
         free_stream_speed_of_sound, free_stream_velocity, heat_capacity_ratio, local_V(i));
+    
     sq_local_mach_number(i) = calculateLocalMachNumber(sq_speed_of_sound(i), local_V(i));
+    
     local_density(i) = calculateDensity(free_stream_mach_number, free_stream_velocity, heat_capacity_ratio, free_stream_density, local_V(i));
 end
 
@@ -107,6 +121,18 @@ grid on
 xlabel('$q_{local} [m/s]$','Interpreter','latex','FontSize',12)
 ylabel('$\rho_{local} [kg/m^3]$','Interpreter','latex','FontSize',16)
 title('Density')
+
+figure
+plot(local_V, local_density./free_stream_density,'Color','#0065bd','LineWidth',1.3)
+hold on
+plot(local_V, sq_speed_of_sound./free_stream_speed_of_sound^2,'Color','#e37222','LineWidth',1.3)
+plot(local_V, sq_local_mach_number./free_stream_mach_number^2,'Color','#a2ad00','LineWidth',1.3)
+set(gcf,'Color','w')
+grid on
+legend('\rho_{local}/\rho_{\infty}','a_{local}^2/a_{\infty}^2 [-]','M_{local}^2/M_{\infty}^2 [-]',...
+    'Location','Northwest','FontSize',14)
+xlabel('$q_{local} [m/s]$','Interpreter','latex','FontSize',14)
+title('Comparison of Values','FontSize',14)
 
 %%
 function sq_speed_of_sound = calculateLocalSpeedOfSound(fs_M, fs_A, fs_V, fs_H_C, local_V)
