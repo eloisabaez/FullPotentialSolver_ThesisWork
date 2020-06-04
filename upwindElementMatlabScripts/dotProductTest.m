@@ -21,17 +21,29 @@ text(10.5,10.5,'3','FontSize',14)
 % plot([point_three(1), point_two(1)], [point_three(2), point_two(2)],'Color','k','Linewidth',1.2)
 % plot([point_one(1), point_three(1)], [point_one(2), point_three(2)],'Color','k','Linewidth',1.2)
 
+% % create vectors
+% % 1 - 2
+% vector_one   = [point_one(1) - point_two(1), point_one(2) - point_two(2), 0];
+% % 2 - 3
+% vector_two   = [point_two(1) - point_three(1), point_two(2) - point_three(2), 0];
+% % 3 - 1
+% vector_three = [point_three(1) - point_one(1), point_three(2) - point_one(2), 0];
+
 % create vectors
 % 1 - 2
-vector_one   = [point_one(1) - point_two(1), point_one(2) - point_two(2), 0];
+vector_one   = [point_two(1) - point_one(1), point_two(2) - point_one(2), 0];
 % 2 - 3
-vector_two   = [point_two(1) - point_three(1), point_two(2) - point_three(2), 0];
+vector_two   = [point_three(1) - point_two(1), point_three(2) - point_two(2), 0];
 % 3 - 1
-vector_three = [point_three(1) - point_one(1), point_three(2) - point_one(2), 0];
+vector_three = [point_one(1) - point_three(1), point_one(2) - point_three(2), 0];
 
-quiver(point_two(1),point_two(2),vector_one(1),vector_one(2),0,'Color','k','LineWidth',1.2,'MaxHeadSize',0.15)
-quiver(point_three(1),point_three(2),vector_two(1),vector_two(2),0,'Color','k','LineWidth',1.2,'MaxHeadSize',0.15)
-quiver(point_one(1),point_one(2),vector_three(1),vector_three(2),0,'Color','k','LineWidth',1.2,'MaxHeadSize',0.15)
+% quiver(point_two(1),point_two(2),vector_one(1),vector_one(2),0,'Color','k','LineWidth',1.2,'MaxHeadSize',0.15)
+% quiver(point_three(1),point_three(2),vector_two(1),vector_two(2),0,'Color','k','LineWidth',1.2,'MaxHeadSize',0.15)
+% quiver(point_one(1),point_one(2),vector_three(1),vector_three(2),0,'Color','k','LineWidth',1.2,'MaxHeadSize',0.15)
+
+quiver(point_one(1),point_one(2),vector_one(1),vector_one(2),0,'Color','k','LineWidth',1.2,'MaxHeadSize',0.15)
+quiver(point_two(1),point_two(2),vector_two(1),vector_two(2),0,'Color','k','LineWidth',1.2,'MaxHeadSize',0.15)
+quiver(point_three(1),point_three(2),vector_three(1),vector_three(2),0,'Color','k','LineWidth',1.2,'MaxHeadSize',0.15)
 
 axis([-2.5 11.5 -2.5 11.5])
 set(gcf, 'Color','w'); 
