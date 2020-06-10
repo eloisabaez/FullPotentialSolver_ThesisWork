@@ -94,10 +94,6 @@ title('Density','FontSize',18)
 legend show
 legend('Location','EastOutside','FontSize',10)
 
-
-% figure
-% plot(upwind_velocity, upwind_density)
-
 %%
 function sq_speed_of_sound = calculateLocalSpeedOfSound(fs_M, fs_A, fs_V, fs_H_C, local_V)
     square_bracket_term = 1 + 0.5*(fs_H_C - 1)*fs_M^2*(1-(local_V/fs_V)^2);
